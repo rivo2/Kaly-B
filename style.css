@@ -1,0 +1,104 @@
+.Kaly-B{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0;
+}
+
+.centrer{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+.plat{
+    height: 150px;
+    width: auto;
+}
+.plateaux{
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgba(232, 116, 38, 0.543);
+    border-radius: 10px;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.595);
+    color:white;
+    position:fixed;
+    top: 0;
+    right: 0;
+    min-width: 100vw;
+    z-index: 5;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.595);
+    color:white;
+}
+a{
+    color: white;
+}
+nav a{
+    font-size:x-large;
+    text-decoration: none;
+    margin-left: 3vw;
+    width: 100%;
+
+}
+.sous-titre{
+    text-decoration: underline;
+}
+.b-image{
+    height: 100vh;
+    background-image: url('./images/back.jpg');
+    background-size:cover;
+    background-position: center;
+}
+.b-white{
+    background-color: rgba(255, 255, 255, 0.564);
+}
+.t-center{
+    text-align: center;
+}
+.center{
+    font-size: 400%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.legende{
+    width: max-content;
+    padding: 20px 50px;
+    position: relative;
+    top:30vh;
+    backdrop-filter: blur(3px);
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h3{
+    margin-left: 2vw;
+}
+li{
+    list-style-type:none;
+}
+.paragraphe{
+    width: 50vw;
+}
+.h-2{
+    display: flex;
+    background-color: burlywood;
+}
+.Head-2{
+    display: flex;
+}
+#form{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-size: 140%;
+    font-family:Arial, Helvetica, sans-serif;
+}
